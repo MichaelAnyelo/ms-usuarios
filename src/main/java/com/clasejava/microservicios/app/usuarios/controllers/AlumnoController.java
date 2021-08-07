@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.clasejava.microservicios.app.commons.alumnos.models.entity.Alumno;
 import com.clasejava.microservicios.app.commons.controller.CommonController;
-import com.clasejava.microservicios.app.usuarios.models.entity.Alumno;
 import com.clasejava.microservicios.app.usuarios.services.AlumnoService;
 
 
